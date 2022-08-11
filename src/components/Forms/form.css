@@ -1,0 +1,161 @@
+#icons {
+  color: #868aa5;
+  font-size: 24px;
+  margin: 0;
+  margin-left: 18px;
+  position: absolute;
+  z-index: 1;
+}
+
+.btn-disable {
+  pointer-events: none;
+  background-color: #005dfa;
+}
+
+.alert {
+  text-align: left;
+  width: 500px;
+  padding: 20px 20px;
+  border-radius: 4px;
+  background-color: rgb(247, 158, 148);
+  position: absolute;
+  top: 50px;
+  left: -10%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(168, 64, 52);
+  border-right: 5px solid rgb(168, 64, 52);
+  border-left: 5px solid rgb(168, 64, 52);
+  transform: translate(0, -100px);
+  transition: 0.3s;
+}
+
+div.active {
+  transform: translate(0);
+}
+
+.close {
+  cursor: pointer;
+  width: 15px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.container {
+  position: relative;
+  width: calc(100% - 655px);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head {
+  margin: 0;
+  margin-bottom: 45px;
+}
+
+.head > * {
+  margin: 0;
+}
+
+.head h1 {
+  margin-bottom: 12px;
+  color: #2f3367;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.head p {
+  font-size: 16px;
+  color: #303468;
+}
+
+.form {
+  width: 445px;
+}
+
+.form div {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.form input {
+  position: relative;
+  background-color: #f5f5f7;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+  padding-left: 59px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #8b8fa8;
+  transition: 0.3s;
+}
+
+.form input:focus {
+  border: 3px solid #80befc;
+  background-color: transparent;
+  color: #3c4071;
+}
+
+.form input:placeholder {
+  color: #8b8fa8;
+}
+
+.sign-up {
+  background-color: #fff !important;
+  display: flex;
+  justify-content: end;
+  margin-top: 38px;
+}
+
+.sign-up button {
+  font-size: 22px;
+  padding: 18px 36px;
+  border: none;
+  background-color: #007dfa;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.sign-up button:hover {
+  background-color: #005dfa;
+}
+
+.sign-up button:active {
+  background-color: #002dfa;
+}
+
+.login {
+  border-top: 1px solid #ececf0;
+  margin: 35px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login > * {
+  margin: 30px 0 0;
+}
+
+.login p {
+  color: #393d6e;
+}
+
+.login a {
+  color: #007dfa;
+  font-weight: 600;
+  text-decoration: none;
+}
